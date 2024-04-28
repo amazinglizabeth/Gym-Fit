@@ -809,15 +809,16 @@ body {
 
   .reviewHead > h3 {
     color: #ffffff;
-    font-size: 33px;
+    font-size: 25px;
     font-weight: 700;
     margin-right: 1%;
+    margin-top: 1px;
   }
 
   .reviewHead > img {
-    margin-top: 6px;
-    width: 80px;
-    height: 29px;
+    margin-top: 3px;
+    width: 65px;
+    height: 25px;
   }
 
   .reviews {
@@ -829,5 +830,69 @@ body {
 
   .social-media > a {
     padding-top: 8%;
+  }
+
+  .column-1 > h3 {
+    font-size: 15px;
+    margin-top: 2%;
+  }
+
+  .column-1 > p {
+    margin-bottom: 10%;
+    font-size: 12px;
+  }
+
+  .column-2 {
+    width: 30%;
+  }
+
+  .column-2 > h3 {
+    font-size: 15px;
+    margin-bottom: 20%;
+  }
+
+  .column-2 > a {
+    margin-bottom: 19px;
+    font-size: 12px;
+  }
+
+  .column-3 {
+    width: 28%;
+    margin-left: 2%;
+  }
+
+  .column-3 > h3 {
+    font-size: 15px;
+    margin-top: 2%;
+    margin-bottom: 18%;
+  }
+
+  .column-3 > p {
+    margin-bottom: 12px;
+    font-size: 12px;
+  }
+
+  .newsletter > h3 {
+    font-size: 17px;
+    margin-top: 5%;
+    margin-bottom: 1%;
+  }
+
+  .subscription {
+    margin-bottom: 6%;
+  }
+
+  .subscription > input {
+    width: 45%;
+  }
+
+  .subscription > button {
+    width: 100px;
+    font-size: 15px;
+  }
+
+  .footer > p {
+    margin-bottom: 2%;
+    font-size: 14px;
   }
 }
