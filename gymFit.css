@@ -612,3 +612,222 @@ body {
   margin-bottom: 2%;
   font-weight: 600;
 }
+
+@media screen and (max-width: 855px) {
+  .menu {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .menu > a {
+    margin-left: 2%;
+    font-size: 14px;
+  }
+  .diagram > img {
+    width: 420px;
+    height: 400px;
+    margin-top: 20%;
+    margin-right: 5%;
+  }
+  .row > img {
+    width: 37%;
+    margin-right: 5%;
+  }
+  .facilities > img {
+    width: 37%;
+  }
+  .workouts > img {
+    height: 250px;
+  }
+  .booking-text {
+    margin-left: 3%;
+    padding-top: 7%;
+  }
+  .booking-text > h2 {
+    font-size: 32px;
+    word-spacing: 1px;
+    line-height: 70px;
+  }
+  .booking-text > p {
+    margin-top: 1px;
+  }
+  .curve-up {
+    width: 200px;
+  }
+  .curve-down {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .menu {
+    padding-left: 2%;
+    min-height: 30px;
+  }
+  .menu > img {
+    margin-right: 5%;
+  }
+  .menu > a {
+    margin-left: 3%;
+    font-size: 12px;
+  }
+  .menu > button {
+    display: none;
+  }
+  .landingPage {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  .information {
+    max-width: 100%;
+    padding-top: 0;
+  }
+
+  .information > h1 {
+    font-size: 33px;
+    line-height: 45px;
+  }
+  .text-border {
+    border-radius: 180px / 73px;
+    height: 53px;
+  }
+  .information > button {
+    margin-top: 5%;
+  }
+  .diagram {
+    max-width: 100%;
+    padding-left: 2%;
+  }
+  .diagram > img {
+    margin-top: 7%;
+    width: 340px;
+    height: 280px;
+  }
+  .gymInfo {
+    min-height: 110px;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 4%;
+    padding-right: 2%;
+  }
+  .column > h2 {
+    font-size: 22px;
+  }
+  .column > p {
+    font-size: 12px;
+    padding-top: 4%;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    max-width: 100%;
+    box-shadow: inset 5px 5px 35px -5px #0b032d;
+    border: 3px solid #0b032d81;
+    padding: 3%;
+    margin-right: 4%;
+  }
+  .row > img {
+    width: 85%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 1%;
+  }
+  .write-up-1 {
+    margin-left: 3%;
+    width: 98%;
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+  .write-up-2 {
+    width: 98%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-top: 5%;
+  }
+  .text-head > h3 {
+    padding-left: 3%;
+    padding-top: 4%;
+    font-size: 22px;
+  }
+  .approach > p {
+    margin-left: 14%;
+  }
+  .facilities > P {
+    margin-left: 14%;
+  }
+  .workouts {
+    margin-left: 6%;
+    width: 65%;
+  }
+
+  .workouts > img {
+    height: 250px;
+  }
+  .gymBooking {
+    margin-top: 15%;
+    height: 400px;
+  }
+  .curve-up {
+    width: 100px;
+  }
+
+  .curve-down {
+    width: 100px;
+  }
+  .booking-text > h2 {
+    font-size: 30px;
+    line-height: 35px;
+    padding-top: 18%;
+  }
+
+  .booking-text > p {
+    margin-top: 3%;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .customerReviews {
+    margin-top: 15%;
+    padding-bottom: 12%;
+    padding-top: 5px;
+  }
+
+  .reviewHead {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+  }
+
+  .reviewHead > h3 {
+    color: #ffffff;
+    font-size: 33px;
+    font-weight: 700;
+    margin-right: 1%;
+  }
+
+  .reviewHead > img {
+    margin-top: 6px;
+    width: 80px;
+    height: 29px;
+  }
+
+  .reviews {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .social-media > a {
+    padding-top: 8%;
+  }
+}
