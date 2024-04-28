@@ -804,16 +804,17 @@ body {
   }
 
   .customerReviews {
-    margin-top: 15%;
+    margin-top: 20%;
     padding-bottom: 12%;
-    padding-top: 5px;
+    padding-top: 7px;
   }
 
   .reviewHead {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 3%;
+    margin-top: 4%;
+    margin-bottom: 2%;
   }
 
   .reviewHead > h3 {
@@ -835,6 +836,13 @@ body {
     flex-direction: row;
     overflow-x: auto;
     white-space: nowrap;
+  }
+  .review-more {
+    margin-top: 3%;
+  }
+  .review-more > p {
+    font-size: 14px;
+    margin-top: 2%;
   }
 
   .social-media > a {
