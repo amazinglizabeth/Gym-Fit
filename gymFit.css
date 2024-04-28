@@ -900,16 +900,16 @@ body {
   }
 
   .subscription > input {
-    width: 45%;
+    width: 60%;
   }
 
   .subscription > button {
-    width: 100px;
+    width: 130px;
     font-size: 15px;
   }
 
   .footer > p {
     margin-bottom: 2%;
-    font-size: 14px;
+    font-size: 12px;
   }
 }
