@@ -33,7 +33,7 @@ const FitnessProgram = () => {
       >
         <div className="min-w-[400px] text-center inline-block mr-6">
           <img
-            src="#"
+            src={Aerobics}
             alt="aerobics training"
             className="w-[500px] h-[300px] object-cover rounded-lg"
           />
