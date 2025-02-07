@@ -4,8 +4,8 @@ import DownCurve from "../images/down-curve.png";
 
 const Booking = () => {
   return (
-    <div className=" bg-[#2b2252] h-[450px] py-12 px-6 text-center text-white relative">
-      <div className="curve-design">
+    <div className=" bg-[#2b2252] md:h-[450px] py-12 px-6 text-center text-white relative">
+      <div className=" hidden md:block">
         <img
           className="up-curve absolute top-0 left-0"
           src={UpCurve}
@@ -18,7 +18,7 @@ const Booking = () => {
         />
       </div>
       <div className="booking-text mt-10 pt-5 text-center">
-        <h2 className="text-5xl font-semibold pt-12">
+        <h2 className="text-4xl md:text-5xl font-semibold pt-12">
           Start Your Fitness Journey Today
         </h2>
         <p className="mt-5 px-8 text-xl">

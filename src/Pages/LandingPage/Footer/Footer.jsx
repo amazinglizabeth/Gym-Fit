@@ -50,7 +50,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div className="mb-8 md:mb-0 md:w-1/3 pl-12 ml-12">
+          <div className="mb-8 md:mb-0 md:w-1/3 md:pl-12 md:ml-12">
             <h3 className="text-lg font-bold mb-4">Quick Links</h3>
             <ul className=" space-y-2">
               <li>
@@ -100,11 +100,11 @@ const Footer = () => {
           <h3 className="text-lg font-bold mb-4">
             Subscribe to our Newsletter
           </h3>
-          <div className="flex ">
+          <div className="flex flex-col md:flex-row gap-3 ">
             <input
               type="text"
               placeholder="Enter your email"
-              className="px-12 py-2 rounded-lg focus:outline-none text-black mr-3"
+              className="px-12 py-2 rounded-lg focus:outline-none text-black"
             />
             <button className="px-8 py-2 bg-red-500 rounded-md hover:bg-red-600 text-white">
               Subscribe

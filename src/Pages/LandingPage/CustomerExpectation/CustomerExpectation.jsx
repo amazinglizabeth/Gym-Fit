@@ -11,15 +11,15 @@ const CustomerExpectation = () => {
       </h2>
       <div className="gym-expectation space-y-12">
         {/* First Row */}
-        <div className="row flex flex-wrap items-center justify-between w-[100%]">
+        <div className="flex flex-col md:flex-row items-center justify-between w-[100%] gap-x-10">
           <img
             src={CyclingLady}
             alt="Cycling lady"
-            className=" md:w-1/3 mb-4 md:mb-0 w-[40%]"
+            className=" md:w-1/3 mb-4 md:mb-0 w-full md:w-[40%]"
           />
-          <div className="write-up-1 md:w-2/3 space-y-8 w-[60%] px-10 ">
+          <div className=" md:w-2/3 space-y-8 md:w-[60%] w-full md:px-10 ">
             <div className="approach flex flex-col md:flex-row items-start space-y-4 md:space-y-0 ">
-              <img src={Logo} alt="logo" className="w-12 h-12 mr-3 ml-10" />
+              <img src={Logo} alt="logo" className="w-12 h-12 mr-3 " />
               <div>
                 <h3 className="text-2xl font-bold ">Personalized Approach</h3>
                 <p className="text-medium mt-1">
@@ -31,7 +31,7 @@ const CustomerExpectation = () => {
               </div>
             </div>
             <div className="facilities flex flex-col md:flex-row items-start space-y-4 md:space-y-0">
-              <img src={Logo} alt="logo" className="w-12 h-12 mr-3 ml-10" />
+              <img src={Logo} alt="logo" className="w-12 h-12 mr-3" />
               <div>
                 <h3 className="text-2xl font-bold ">
                   State-of-the-Art Facilities
@@ -48,13 +48,13 @@ const CustomerExpectation = () => {
         </div>
 
         {/* Second Row */}
-        <div className="row flex flex-wrap items-center justify-between ">
-          <div className="write-up-2 md:w-2/3 space-y-8 pr-10">
+        <div className="row flex flex-col-reverse md:flex-row items-center justify-between gap-x-10">
+          <div className="write-up-2 md:w-2/3 space-y-8">
             <div className="approach flex flex-col md:flex-row items-start space-y-4 md:space-y-0 pr-5">
               <img src={Logo} alt="logo" className="w-12 h-12 mr-3" />
               <div>
                 <h3 className="text-2xl font-bold">Variety of Workouts</h3>
-                <p className="text-medium mt-1 mr-12 pr-15">
+                <p className="text-medium mt-1 md:mr-12 md:pr-15">
                   Say goodbye to boring routines. At GymFit, we offer a diverse
                   range of workouts including strength training, cardio, yoga,
                   Pilates, and more. With our constantly evolving classes,
@@ -68,7 +68,7 @@ const CustomerExpectation = () => {
                 <h3 className="text-2xl font-bold">
                   Flexible Membership Options
                 </h3>
-                <p className="text-medium mt-1 mr-12 pr-15">
+                <p className="text-medium mt-1 md:mr-12 md:pr-15">
                   We offer flexible membership options to fit your schedule and
                   budget. Whether you prefer unlimited access or pay-as-you-go,
                   we have a plan that's right for you.
